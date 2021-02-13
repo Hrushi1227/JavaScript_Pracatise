@@ -1,0 +1,49 @@
+
+
+body{
+    background-color: #10D1A0;
+   
+    background-image: url("back_img.png");
+}
+h1{
+    text-align:right;
+}
+form{
+    position:relative;
+    text-align:right;
+}
+#menu{
+    display:flex;
+    flex-direction:row;
+    color:white;
+    text-decoration: none;    
+}
+ol > a{
+    text-decoration: none;
+    color:white; 
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+ol > a:hover{
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    color: black;
+    background-color: #FFCCCC;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg) ;
+}
+.footer h2{
+    text-align: center;
+    color:white;
+}
+#btn_submit{
+    position:relative;
+    text-align:right;
+}
+#Form_sbt{
+    text-align:left;
+    margin-left: 80%;
+}
+.MainCont{
+    border:black;
+}

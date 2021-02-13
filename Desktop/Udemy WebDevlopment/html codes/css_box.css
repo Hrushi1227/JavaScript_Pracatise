@@ -1,0 +1,36 @@
+div {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+h1:hover {
+    background-color: red;
+    height: 40px;
+    width: 120px;
+    font-size: 30px;
+    margin: 5px;
+}
+#one{
+background-color: red;
+border-width: 5px ;
+border-style: dotted;
+border-color: black;
+border-radius: 5%;
+box-sizing: border-box;
+margin: 10px;
+}
+#two{
+border:  solid  5px black;
+border-top-color:green ;
+border-radius: 10%;
+}
+button{
+    padding: 10px 20px 30px 40px;
+    margin: 30px;
+}
+
+#three{
+    border: solid  2px black;
+    border-color: magenta ;
+    border-radius: 10%;  
+}

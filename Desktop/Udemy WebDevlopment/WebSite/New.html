@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Demonstrating assignment
+    </title>
+    <style type="text/css">
+        h3 {
+            text-align: center;
+            border: 1px solid;
+            padding: 5px;
+        }
+
+        .container {
+            background: #ccc;
+            border: 1px solid;
+            padding: 5px;
+            height: 500px;
+        }
+
+        .leftBlock,
+        .rightBlock {
+            border: 1px solid;
+            background: #fff;
+            padding: 5px;
+            float: left;
+            height: 480px;
+            overflow: auto;
+        }
+
+        .leftBlock {
+            width: 20%;
+        }
+
+        .rightBlock {
+            width: 73%;
+            margin-left: 20px;
+        }
+
+        .namesList li {
+            border: 1px solid;
+            margin: 5px;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .namesList li:hover {
+            background: yellow;
+            cursor: pointer;
+        }
+
+        .detailsBlock {
+            list-style: none;
+            border: 1px solid;
+            margin: 10px;
+            padding: 10px;
+            height: 150px;
+        }
+
+        .imgBlock {
+            border: 1px solid;
+            width: 110px;
+            height: 110px;
+            padding: 5px;
+            margin: 5px;
+            float: left;
+        }
+
+        .dBlock {
+            margin: 5px;
+            padding: 5px;
+            float: left;
+            width: 75%;
+            height: 110px;
+        }
+
+        .imgBlock img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>
+        Student Details
+    </h3>
+    <div class="container">
+        <div class="leftBlock">
+            <ol class="namesList">
+                <li>Teena</li>
+                <li>Meena</li>
+                <li>Krish</li>
+                <li>
+                    <a href="#rajDetails" onclick="hightlightDetails('#rajDetails')">Raj</a>
+                </li>
+                <li>Suresh</li>
+                <li>ABC</li>
+            </ol>
+        </div>
+        <div class="rightBlock">
+            <ul>
+                <li class="detailsBlock">
+                    <div class="imgBlock">
+                        <img src="https://images.indianexpress.com/2020/08/scholarship-759.jpg" />
+                    </div>
+                    <div class="dBlock">
+                        <ul>
+                            <li>Name: Teena</li>
+                            <li>AGe: 10</li>
+                            <li>GEnder: FEmale</li>
+                            <li>Location: Hyd</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="detailsBlock">
+                    <div class="imgBlock">
+                        <img src="https://images.indianexpress.com/2020/08/scholarship-759.jpg" />
+                    </div>
+                    <div class="dBlock">
+                        <ul>
+                            <li>Name: Teena</li>
+                            <li>AGe: 10</li>
+                            <li>GEnder: FEmale</li>
+                            <li>Location: Hyd</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="detailsBlock">
+                    <div class="imgBlock">
+                        <img src="https://images.indianexpress.com/2020/08/scholarship-759.jpg" />
+                    </div>
+                    <div class="dBlock">
+                        <ul>
+                            <li>Name: Teena</li>
+                            <li>AGe: 10</li>
+                            <li>GEnder: FEmale</li>
+                            <li>Location: Hyd</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="detailsBlock">
+                    <div class="imgBlock">
+                        <img src="https://images.indianexpress.com/2020/08/scholarship-759.jpg" />
+                    </div>
+                    <div class="dBlock">
+                        <ul>
+                            <li>Name: Teena</li>
+                            <li>AGe: 10</li>
+                            <li>GEnder: FEmale</li>
+                            <li>Location: Hyd</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="detailsBlock" id="rajDetails">
+                    <div class="imgBlock">
+                        <img src="https://images.indianexpress.com/2020/08/scholarship-759.jpg" />
+                    </div>
+                    <div class="dBlock">
+                        <ul>
+                            <li>Name: Raj</li>
+                            <li>AGe: 10</li>
+                            <li>GEnder: MAle</li>
+                            <li>Location: Delhi</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="detailsBlock">
+                    <div class="imgBlock">
+                        <img src="https://images.indianexpress.com/2020/08/scholarship-759.jpg" />
+                    </div>
+                    <div class="dBlock">
+                        <ul>
+                            <li>Name: Teena</li>
+                            <li>AGe: 10</li>
+                            <li>GEnder: FEmale</li>
+                            <li>Location: Hyd</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <h3>
+        @copy rights 2021
+    </h3>
+    <style type="text/css">
+        .block {
+            border: 1px solid;
+            width: 500px;
+            overflow-x: scroll;
+            height: 400px;
+
+        }
+
+        .child {
+            border: 1px solid;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+
+        }
+    </style>
+    <div class="block">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>
+</body>
+
+</html>

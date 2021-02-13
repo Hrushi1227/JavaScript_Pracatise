@@ -1,0 +1,27 @@
+h2{
+    color: red;
+    font-family: monospace;
+    /*font-family: Futura,Arial; */
+}
+p{
+    background-color: seagreen;
+    
+}
+body{
+    background-color: pink;
+}
+p{
+    text-align: center  ;
+    line-height: 2.5;
+}
+h1{     
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: rgb(83, 44, 6) underline wavy;
+    letter-spacing: 6px;
+    
+}
+a{
+    text-decoration: none;
+}

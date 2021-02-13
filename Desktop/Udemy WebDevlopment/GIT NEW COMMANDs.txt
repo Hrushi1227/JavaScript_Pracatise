@@ -1,0 +1,186 @@
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises
+$ git clone https://github.com/Hrushi1227/Practise.git
+Cloning into 'Practise'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises
+$ ls
+Practise/
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises
+$ cd Practise
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises/Practise (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises/Practise (main)
+$ git add index.html
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises/Practise (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   index.html
+
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises/Practise (main)
+$ git commit  -m "New file Push Practise... "
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Hrutika@DESKTOP-5HRBUTJ.(none)')
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises/Practise (main)
+$ git config --global user.email "rushi.ghatol1227@gmail.com"
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises/Practise (main)
+$ git commit  -m "New file Push Practise... "
+[main 1730d29] New file Push Practise...
+ 1 file changed, 20 insertions(+)
+ create mode 100644 index.html
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises/Practise (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 605 bytes | 302.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Hrushi1227/Practise.git
+   9cf9380..1730d29  main -> main
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises/Practise (main)
+$ ls
+index.html  README.md
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises/Practise (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises/Practise (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises/Practise (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises/Practise (main)
+$ git stats
+git: 'stats' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises/Practise (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises/Practise (main)
+$ git pull
+Already up to date.
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises/Practise (main)
+$ git pull push
+fatal: 'push' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises/Practise (main)
+$ git push
+Everything up-to-date
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises/Practise (main)
+$ git pull
+Already up to date.
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises/Practise (main)
+$ git log
+commit 3bb55a13a4e696f0fbf816d3757e91ec6808b7f8 (HEAD -> main, origin/main, origin/HEAD)
+Author: unknown <rushi.ghatol1227@gmail.com>
+in/HEAD)
+Author: unknown <rushi.ghatol1227@gmail.com>
+in/HEAD)
+Author: unknown <rushi.ghatol1227@gmail.com>
+Date:   Sun Nov 1 21:16:09 2020 +0530
+
+    after Deleteing
+
+commit 36f70916025e54404c9a52085dc6556754aee98c
+Author: unknown <rushi.ghatol1227@gmail.com>
+Date:   Sun Nov 1 21:13:38 2020 +0530
+
+    New Code for push via Visual
+
+commit 1730d29cdd19c5a11cddf3a85e5cb0c68f410763
+Author: unknown <rushi.ghatol1227@gmail.com>
+Date:   Sun Nov 1 21:04:09 2020 +0530
+
+    New file Push Practise...
+
+commit 9cf9380ca123ae8300ea435f5d759ff748d04f98
+Author: Hrushi1227 <73787872+Hrushi1227@users.noreply.github.com>
+Date:   Sun Nov 1 20:55:48 2020 +0530
+
+    Initial commit
+(END)
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises/Practise (main)
+bash: OB: command not found
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises/Practise (main)
+$ git: 'git' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+Hrutika@DESKTOP-5HRBUTJ MINGW64 ~/Desktop/Udemy WebDevlopment/Practises/Practise (main)

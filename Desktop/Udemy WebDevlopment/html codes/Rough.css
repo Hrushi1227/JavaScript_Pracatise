@@ -1,0 +1,30 @@
+
+*{
+    background-color: pink;
+}
+
+b{
+    color: red;
+}
+
+a{
+    color: white;
+}
+
+h1,h2{
+    color: rgb(135, 8, 219);
+}
+
+#submit1{
+    background-color: red;
+    color: blue;
+
+}
+section label{
+    color: rgb(255, 0, 0);
+}
+
+section > div {
+    color:rgb(128, 115, 0);
+}
+

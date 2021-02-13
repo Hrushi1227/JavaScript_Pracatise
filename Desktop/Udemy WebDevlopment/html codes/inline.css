@@ -1,0 +1,60 @@
+/*div {
+    
+    height: 200px;
+    width: 200px;
+    background-color:olive;
+    border: 5px solid black;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    /*display: none;
+}
+
+html{
+    font-size : 14px;
+}
+
+
+#ems article{
+    font-size: 1px;
+}
+
+#ems button{
+    color: red;
+    font-size: 2em;
+    margin: 1em;
+    padding: 0 1em;
+    border-radius: 1em;
+
+}
+#ems ul{
+    font-size : 2em;
+}
+
+#rems article{
+   font-size : 3rem; 
+}
+*/
+
+section {
+    height : 500px;
+    width : 500px;
+    background-color : red;
+    margin : 80px; 
+
+    
+    
+}
+
+#rgba{
+    height : 50%;
+    width : 50%;
+    background-color : rgba(200, 150, 160, 1);
+}
+
+#opar{
+    height : 50%;
+    width : 50%;
+    background-color : #ffc0cb;
+    opacity: 0.5;
+}
