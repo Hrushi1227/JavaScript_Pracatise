@@ -73,3 +73,32 @@ function Colorize() {
     this.style.backgroundColor = randomColorsFun();
     this.style.color = randomColorsFun();
 }
+
+const formsbt = document.querySelector('#FormSbt');
+const tweetContainer = document.querySelector('tweetsContainer');
+formsbt.addEventListener('submit', (evt) => {
+    evt.preventDefault();
+    const usernameInput = formsbt.elements.Username;
+    const tweetInput = formsbt.elements.comment;
+
+    addTweet(usernameInput.value, tweetInput.value)
+    usernameInput.value = '';
+    tweetInput.value = '';
+
+})
+const addTweet = (username, tweet) => {
+    const NewElement = document.createElement('li')
+    const btag = document.createElement('b');
+    btag.append(username)
+    NewElement.append(btag);
+    NewElement.append(`-${tweet}`)
+    console.log(NewElement);
+    tweetsContainer.append(NewElement);
+}
+
+/*
+    <li>
+        <h2>username<h2>
+        <h3>tweet<h3>
+    <li>
+*/
