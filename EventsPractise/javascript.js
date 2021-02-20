@@ -86,6 +86,12 @@ formsbt.addEventListener('submit', (evt) => {
     tweetInput.value = '';
 
 })
+
+
+
+
+
+
 const addTweet = (username, tweet) => {
     const NewElement = document.createElement('li')
     const btag = document.createElement('b');
@@ -96,9 +102,28 @@ const addTweet = (username, tweet) => {
     tweetsContainer.append(NewElement);
 }
 
+
+tweetsContainer.addEventListener('click', function (evtaction) {
+
+    evtaction.target.nodeName === 'LI' && evtaction.target.remove();
+
+})
+
+
+
 /*
     <li>
         <h2>username<h2>
         <h3>tweet<h3>
     <li>
 */
+
+
+const setH1 = document.querySelector('#SetH1');
+
+const H1val = document.querySelector('#SetH1Head')
+
+setH1.addEventListener('input', (evt1) => {
+    H1val.innerText = setH1.value;
+
+})
