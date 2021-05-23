@@ -1,0 +1,20 @@
+
+*{
+    margin: 10;
+}
+.box {
+    border: 1px solid black;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+  }
+
+  ul {
+      margin: 10px;
+  }
+  ul>li {
+    margin: 10px;
+  }
